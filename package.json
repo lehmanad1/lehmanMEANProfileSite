@@ -1,0 +1,21 @@
+{
+  "name": "Andrew Lehman MEAN site",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication",
+  "main": "app.js",
+  "scripts": {
+   "start": "node app"
+	},
+	"dependencies":{
+		"express":"*",
+		"mongoose":"*",
+		"bcryptjs":"*",
+		"cors":"*",
+		"jsonwebtoken":"*",
+		"body-parser":"*",
+		"passport":"*",
+		"passport-jwt":"*"
+	},
+  "author": "Andrew Lehman",
+  "license": "ISC"
+}
